@@ -27,7 +27,7 @@ class QRPage extends StatelessWidget {
                           size: 320,
                           gapless: false,
                           embeddedImage: const AssetImage(
-                              'assets/images/my_embedded_image.png'),
+                              'assets/images/my_embedded_image.jpg'),
                           embeddedImageStyle: const QrEmbeddedImageStyle(
                             size: Size(80, 80),
                           ),

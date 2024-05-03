@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:qr_generatot/view/dummypages.dart';
+
+import 'package:qr_generatot/view/page_1.dart';
 import 'package:qr_generatot/view/qr_page.dart';
+import 'package:qr_generatot/view/calendar_page.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
@@ -68,8 +70,8 @@ class MyHomePageState extends State<MyHomePage> {
             label: 'QR ',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person_outline_sharp),
-            label: 'Profile',
+            icon: Icon(Icons.calendar_month_sharp),
+            label: 'Register',
           ),
         ],
         currentIndex: _selectedIndex,
